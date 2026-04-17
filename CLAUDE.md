@@ -20,3 +20,12 @@ I create content about game design on mobile, monetization and productivity. My 
 - workflows/ - Workflow instructions files (plain English recipes the agent follow)
 - output/ - Finished deliverables (reports, drafts, analysis)
 - resources/ - References docs and templates
+
+# GitHub Integration
+
+- **GitHub account:** Spionulcg
+- **Repo:** https://github.com/Spionulcg/1stClaudeAgent
+- **Branch:** master
+- **Limitation:** The Cowork sandbox blocks github.com access, so Claude cannot run git/gh commands directly. When git operations are needed, Claude should prepare the exact commands for the user to run locally.
+- **Setup guide:** See `resources/github-setup-guide.md` for step-by-step instructions on pushing new folders to GitHub.
+- **Local tools available:** Git + GitHub CLI (`gh`), authenticated via `gh auth login`.
