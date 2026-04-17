@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir \"f:\\\\!Claude\\\\My1stClaudeAgent\\\\\")",
+      "WebSearch",
+      "WebFetch(domain:gdconf.com)",
+      "WebFetch(domain:www.gianty.com)",
+      "WebFetch(domain:treeobit.tech)",
+      "WebFetch(domain:www.ziprecruiter.com)",
+      "Bash(python3 -c \":*)",
+      "Bash(python -c \":*)",
+      "Bash(where python3:*)",
+      "Bash(where python:*)",
+      "Bash(where py:*)",
+      "Bash(ls /c/Python*)",
+      "Read(//c/Users/User/AppData/Local/Programs/**)",
+      "Bash(py --version)",
+      "Bash(/c/Users/User/AppData/Local/Microsoft/WindowsApps/python.exe --version)",
+      "Bash(npm --version)",
+      "Bash(powershell.exe -Command \"Get-Command python -ErrorAction SilentlyContinue | Select-Object Source\")",
+      "Bash(powershell.exe -Command \":*)",
+      "Bash(powershell.exe -Command \"& cscript //nologo ''f:\\\\!Claude\\\\My1stClaudeAgent\\\\output\\\\create_top10.vbs''\")",
+      "Bash(powershell.exe -Command \"& cscript //nologo ''f:\\\\!Claude\\\\My1stClaudeAgent\\\\output\\\\create_top20.vbs''\")",
+      "Bash(powershell.exe -Command \"& cscript //nologo ''f:\\\\!Claude\\\\My1stClaudeAgent\\\\output\\\\create_top20_deduped.vbs''\")",
+      "Bash(powershell.exe -Command \"Get-Process EXCEL -ErrorAction SilentlyContinue | Stop-Process -Force; Start-Sleep -Seconds 2; Write-Host ''Excel killed''\")",
+      "Bash(powershell.exe -Command \"& cscript //nologo ''f:\\\\!Claude\\\\My1stClaudeAgent\\\\output\\\\read_old_offers.vbs''\")",
+      "Bash(powershell.exe -Command \"& cscript //nologo ''f:\\\\!Claude\\\\My1stClaudeAgent\\\\output\\\\extract_offers.vbs''\")",
+      "Bash(Tee-Object -FilePath \"f:\\\\!Claude\\\\My1stClaudeAgent\\\\output\\\\extracted_rows.txt\")"
+    ]
+  }
+}
